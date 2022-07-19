@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'home/About',to: "home#about"
-  get "home/form", to: "home#form"
+  get "home/form", to: "friends#edit"
   root to: 'home#index'
   resources :friends
   resources :homes
